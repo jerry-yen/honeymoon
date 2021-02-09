@@ -1,0 +1,23 @@
+.tip {
+	margin-left:10px;
+	color:green;
+}
+required {
+	color:red;
+	font-weight:bold;
+}
+.invalid {
+	border:1px solid red;	
+}
+.invalid_message {
+	color:white;
+	background-color:red;
+	padding:3px;
+}
+.label_group {
+	background-color:#3C8DBC;
+	color:white;
+	padding:3px;
+	font-size:18px;
+	text-align:center;
+}

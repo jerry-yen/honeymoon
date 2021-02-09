@@ -1,0 +1,2 @@
+<?php
+class Related_Controller extends AdminController {	protected $products = array();	public function main() {		$this -> products = $this -> get_items("product");	}		/**	 * 搜尋	 */	public function search(){		$this -> products = $this -> get_items("product",array("en_title LIKE ? OR title LIKE ?"),array("%" . $this -> module_io -> keyword . "%","%" . $this -> module_io -> keyword . "%"));	}}?>
